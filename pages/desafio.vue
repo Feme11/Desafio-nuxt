@@ -2,7 +2,7 @@
     <div id="app">
         <v-app id="inspire">
             <v-row>
-                <v-col cols="4" v-for="(personaje,i) in this.personajes" :key="i">
+                <v-col v-for="(personaje,i) in this.personajes" :key="i">
                     <v-card
                     class="m-auto"
                     max-width="300"
